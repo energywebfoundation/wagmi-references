@@ -19,7 +19,7 @@ jobs:
 
       - uses: actions/setup-node@v2-beta
         with:
-          node-version: '16.10.0'
+          node-version: '18.0.0'
           registry-url: https://registry.npmjs.org/
 
       - name: Set npm credentials
