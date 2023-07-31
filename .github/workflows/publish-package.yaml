@@ -25,14 +25,6 @@ jobs:
       - name: Set npm credentials
         run: npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
 
-      - name: Install package
-        run: |
-          npm ci
-          npm run setup
-
-      - name: Build package
-        run: npm run build
-
       - name: Output Run number
         run: echo ${{ github.run_number }}
 
