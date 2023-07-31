@@ -1,6 +1,6 @@
 {
-  "name": "@wagmi/connectors",
-  "description": "A collection of connectors for wagmi",
+  "name": "@wagmi-references/connectors",
+  "description": "A collection of connectors for wagmi (with ew chains)",
   "license": "MIT",
   "version": "2.6.6",
   "scripts": {
