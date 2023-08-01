@@ -1,5 +1,5 @@
 {
-  "name": "@wagmi-references/connectors",
+  "name": "@energyweb/wagmi-connectors",
   "description": "A collection of connectors for wagmi (with ew chains)",
   "license": "MIT",
   "version": "2.6.6",
