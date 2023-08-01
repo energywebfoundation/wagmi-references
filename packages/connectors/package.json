@@ -2,7 +2,7 @@
   "name": "@energyweb/wagmi-connectors",
   "description": "A collection of connectors for wagmi (with ew chains)",
   "license": "MIT",
-  "version": "2.6.7",
+  "version": "0.0.1",
   "scripts": {
     "build": "tsup",
     "dev": "DEV=true tsup"
