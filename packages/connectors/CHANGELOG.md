@@ -1,5 +1,11 @@
 # @wagmi/connectors
 
+## 2.6.7
+
+### Patch Changes
+
+- 131a337: Added Desig Wallet name mapping.
+
 ## 2.6.6
 
 ### Patch Changes
