@@ -1,5 +1,5 @@
 ---
-"@wagmi/connectors": patch
+"@energyweb/wagmi-connectors": patch
 ---
 
 Added Desig Wallet name mapping.
