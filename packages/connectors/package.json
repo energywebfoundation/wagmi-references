@@ -2,13 +2,13 @@
   "name": "@energyweb/wagmi-connectors",
   "description": "A collection of connectors for wagmi (with ew chains)",
   "license": "MIT",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "build": "tsup",
     "dev": "DEV=true tsup"
   },
   "peerDependencies": {
-    "@wagmi/chains": ">=1.3.0",
+    "@energyweb/wagmi-chain": ">=0.0.1",
     "typescript": ">=5.0.4",
     "viem": ">=0.3.35"
   },
@@ -33,7 +33,7 @@
     "eventemitter3": "^4.0.7"
   },
   "devDependencies": {
-    "@wagmi/chains": "workspace:*",
+    "@energyweb/wagmi-chain": "workspace:*",
     "viem": "^1.0.0"
   },
   "type": "module",
