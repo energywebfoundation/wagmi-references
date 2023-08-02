@@ -4,6 +4,7 @@
     "build": "pnpm -r build",
     "changeset:release": "pnpm build && changeset publish",
     "changeset:version": "changeset version && pnpm install --lockfile-only",
+    "publish:release": "pnpm publish",
     "cjs:release": "node -r esbuild-register ./scripts/cjs.ts",
     "dev": "pnpm -r dev",
     "format": "rome format . --write",
