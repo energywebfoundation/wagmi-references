@@ -1,4 +1,4 @@
-import type { Chain } from '@wagmi/chains'
+import type { Chain } from '@energyweb/wagmi-chains'
 import { getAddress } from 'viem'
 
 import type { ConnectorData } from '../base'

@@ -1,4 +1,4 @@
-import type { Chain } from '@wagmi/chains'
+import type { Chain } from '@energyweb/wagmi-chains'
 import type WalletConnectProvider from '@walletconnect/legacy-provider'
 import {
   ProviderRpcError,
