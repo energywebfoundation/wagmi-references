@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 overrides:
   abitype: 0.8.7
   esbuild: ^0.15.13
@@ -117,7 +121,7 @@ importers:
         specifier: '>=5.0.4'
         version: 5.0.4
     devDependencies:
-      '@wagmi/chains':
+      '@energyweb/wagmi-chains':
         specifier: workspace:*
         version: link:../chains
       viem:
@@ -5251,7 +5255,3 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
     dev: true
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false

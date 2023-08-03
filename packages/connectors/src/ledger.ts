@@ -1,9 +1,9 @@
+import type { Chain } from '@energyweb/wagmi-chains'
 import {
   EthereumProvider,
   SupportedProviders,
   loadConnectKit,
 } from '@ledgerhq/connect-kit-loader'
-import type { Chain } from '@wagmi/chains'
 import { EthereumProviderOptions } from '@walletconnect/ethereum-provider/dist/types/EthereumProvider'
 import {
   ProviderRpcError,

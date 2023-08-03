@@ -8,12 +8,12 @@
     "dev": "DEV=true tsup"
   },
   "peerDependencies": {
-    "@energyweb/wagmi-chain": ">=0.0.1",
+    "@energyweb/wagmi-chains": ">=0.0.1",
     "typescript": ">=5.0.4",
     "viem": ">=0.3.35"
   },
   "peerDependenciesMeta": {
-    "@wagmi/chains": {
+    "@energyweb/wagmi-chains": {
       "optional": true
     },
     "typescript": {
@@ -33,7 +33,7 @@
     "eventemitter3": "^4.0.7"
   },
   "devDependencies": {
-    "@energyweb/wagmi-chain": "workspace:*",
+    "@energyweb/wagmi-chains": "workspace:*",
     "viem": "^1.0.0"
   },
   "type": "module",
