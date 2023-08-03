@@ -29,6 +29,12 @@ jobs:
       - name: Set npm credentials
         run: npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
 
+      - name: Clone repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        uses: ./.github/actions/install-dependencies
+
       - name: Output Run number
         run: echo ${{ github.run_number }}
 
